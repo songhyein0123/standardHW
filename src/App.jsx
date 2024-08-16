@@ -15,11 +15,9 @@ function App() {
   return (
     <div>
       <Header title="Counter App" />
-
       <Content />
 
       <Counter count={count} increment={increment} />
-
       <Status count={count} />
 
       <Footer year={2024} />
